@@ -1,0 +1,23 @@
+# Build artifacts
+.build/
+*.o
+*.d
+
+# Environment / secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.swiftpm/
+*.xcodeproj
+
+# Cloudflare Worker
+worker/node_modules/
+worker/.wrangler/
+worker/wrangler.local.toml
+
+# Progress runtime files (local state)
+.progress/

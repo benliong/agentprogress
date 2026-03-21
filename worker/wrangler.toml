@@ -1,0 +1,9 @@
+name = "progress-tracker"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+# account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"  # optional: wrangler auto-detects from login
+
+[[kv_namespaces]]
+binding = "PROGRESS_KV"
+id = "YOUR_KV_NAMESPACE_ID"
+# Get this ID by running: wrangler kv:namespace create PROGRESS_KV
